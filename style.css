@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+body{
+    background-image: url('maria-orlova-bU8TeXhsPcY-unsplash.jpg')
+}
+#header{
+    background: #EAAC8B;
+    padding-top: 20px;
+    font-size: 60px;
+    font-family: 'Monofett', cursive;
+}
+#note{
+    font-family: arial;
+    font-size: 20px;
+}
+#play{
+    font-size: 40px;
+    font-family: 'Monofett', cursive;
+    width: 300px;
+    height: 60px;
+    background-color: #E56B6F;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 8px 8px 10px #EAAC8B;
+}
+#speakers1{
+    float: left;
+    height: 300px;
+    border-radius: 300px;;
+    border-style: none;
+}
+#speakers2{
+    height: 300px;
+    float: right;
+    border-radius: 300px;;
+    border-style: none;
+}
+#speed{
+    font-size: 40px;
+    font-family: 'Monofett', cursive;
+    margin-top: 350px;
+    margin-left: -250px;
+    float: left;
+    width: 310px;
+    height: 60px;
+    background-color: #6D597A;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 8px 8px 10px #E56B6F;
+}
+#volume{
+    font-size: 40px;
+    font-family: 'Monofett', cursive;
+    margin-top: 330px;
+    margin-right: -250px;
+    float: right;
+    width: 310px;
+    height: 60px;
+    background-color: #6D597A;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 8px 8px 10px #E56B6F;
+}
+.copyright_footer{
+    position: fixed;
+    color: rgb(218, 252, 224);
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(115, 130, 118);
+    line-height: 3;
+    text-align: center;
+}
+canvas{
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 6px grey;
+    margin-top: 150px;
+}
